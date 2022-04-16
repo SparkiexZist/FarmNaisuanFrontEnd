@@ -27,13 +27,19 @@ public class VegetableController {
         return "vegetable-edit";
     }
 
+    @GetMapping("/anonymous")
+    public String getVegAnonymous(Model model)
+    {
+        model.addAttribute("vegetables", service.getAll());
+        return "veg-anonymous";
+    }
+
     @PostMapping("/edit")
     public String edit(@ModelAttribute Vegetable vegetable, Model model) {
         service.update(vegetable);
         return "redirect:/vegetable";
     }
 
-    // Get ที่ไม่ได้ใส่อะไรคือดึงมาจากหน้า "/restaurant" และต้องมี Model เพราะต้องส่งตัวแปรอาร์เรย์ลิชไปให้
     @GetMapping
     public String getVegetables(Model model,Authentication authentication)
     {
