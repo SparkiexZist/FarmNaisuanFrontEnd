@@ -1,18 +1,13 @@
-package th.ac.ku.kinkao.controller;
+package th.ac.ku.veggie.controller;
 
-import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
-import org.springframework.security.oauth2.core.user.OAuth2User;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import th.ac.ku.kinkao.model.Vegetable;
-import th.ac.ku.kinkao.service.VegetableService;
-import th.ac.ku.kinkao.service.UserService;
+import th.ac.ku.veggie.model.Vegetable;
+import th.ac.ku.veggie.service.VegetableService;
+import th.ac.ku.veggie.service.UserService;
 
 import java.util.UUID;
 

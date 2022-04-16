@@ -1,8 +1,8 @@
-package th.ac.ku.kinkao.service;
+package th.ac.ku.veggie.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import th.ac.ku.kinkao.model.Cart;
+import th.ac.ku.veggie.model.Cart;
 
 import java.util.ArrayList;
 import java.util.List;

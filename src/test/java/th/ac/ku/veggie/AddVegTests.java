@@ -1,4 +1,4 @@
-package th.ac.ku.kinkao;
+package th.ac.ku.veggie;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;

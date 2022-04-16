@@ -1,4 +1,4 @@
-package th.ac.ku.kinkao.controller;
+package th.ac.ku.veggie.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -8,10 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import th.ac.ku.kinkao.model.User;
-import th.ac.ku.kinkao.model.Vegetable;
-import th.ac.ku.kinkao.service.UserService;
-import th.ac.ku.kinkao.service.VegetableService;
+import th.ac.ku.veggie.model.User;
+import th.ac.ku.veggie.service.UserService;
 
 @Controller
 @RequestMapping("/user")

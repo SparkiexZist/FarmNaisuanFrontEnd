@@ -1,4 +1,4 @@
-package th.ac.ku.kinkao.model;
+package th.ac.ku.veggie.model;
 
 import java.util.UUID;
 

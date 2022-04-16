@@ -1,4 +1,4 @@
-package th.ac.ku.kinkao;
+package th.ac.ku.veggie;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

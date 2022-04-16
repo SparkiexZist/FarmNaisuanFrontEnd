@@ -1,12 +1,12 @@
-package th.ac.ku.kinkao.service;
+package th.ac.ku.veggie.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import th.ac.ku.kinkao.model.Order;
-import th.ac.ku.kinkao.model.Vegetable;
-import th.ac.ku.kinkao.model.Cart;
+import th.ac.ku.veggie.model.Order;
+import th.ac.ku.veggie.model.Vegetable;
+import th.ac.ku.veggie.model.Cart;
 
 import java.util.*;
 

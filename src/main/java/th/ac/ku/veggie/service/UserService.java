@@ -1,12 +1,10 @@
-package th.ac.ku.kinkao.service;
+package th.ac.ku.veggie.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import th.ac.ku.kinkao.model.User;
-import th.ac.ku.kinkao.model.Vegetable;
+import th.ac.ku.veggie.model.User;
 
 import java.util.Arrays;
 import java.util.List;

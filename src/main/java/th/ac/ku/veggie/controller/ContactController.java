@@ -1,4 +1,4 @@
-package th.ac.ku.kinkao.controller;
+package th.ac.ku.veggie.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

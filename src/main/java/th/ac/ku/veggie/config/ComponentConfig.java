@@ -1,4 +1,4 @@
-package th.ac.ku.kinkao.config;
+package th.ac.ku.veggie.config;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package th.ac.ku.kinkao.controller;
+package th.ac.ku.veggie.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -8,10 +8,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.Calendar;
-import th.ac.ku.kinkao.model.Order;
-import th.ac.ku.kinkao.service.OrderService;
-import th.ac.ku.kinkao.service.CartService;
-import th.ac.ku.kinkao.service.VegetableService;
+import th.ac.ku.veggie.model.Order;
+import th.ac.ku.veggie.service.OrderService;
+import th.ac.ku.veggie.service.VegetableService;
 
 import java.util.List;
 import java.util.UUID;
@@ -26,19 +25,6 @@ public class OrderController
     private List<Order> cart = new ArrayList<>();
     @Autowired
     private VegetableService vegetableService;
-
-//    @GetMapping("/edit/{id}")
-//    public String getEditForm(@PathVariable UUID id, Model model) {
-//        Order order = service.getOneById(id);
-//        model.addAttribute("order", order);
-//        return "order-edit";
-//    }
-//
-//    @PostMapping("/edit")
-//    public String edit(@ModelAttribute Order order, Model model) {
-//        service.update(order);
-//        return "redirect:/order";
-//    }
 
     // Get ที่ไม่ได้ใส่อะไรคือดึงมาจากหน้า "/restaurant" และต้องมี Model เพราะต้องส่งตัวแปรอาร์เรย์ลิชไปให้
     @GetMapping
